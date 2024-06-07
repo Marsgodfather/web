@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言区</title>
+    <link rel="stylesheet" href="ask.css">
+</head>
+<body>
+    <!-- 页面标题 -->
+    <h1>欢迎留言</h1>
+
+    <!-- 表单部分，提交到 suc.html -->
+    <form action="suc.html" method="post">
+        <!-- 名称输入框 -->
+        <label for="username">名称:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <!-- 邮箱输入框 -->
+        <label for="email">邮箱:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- 性别选择 -->
+        <label for="gender">性别:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+        <br><br>
+        <!-- 国家选择 -->
+        <label for="country">国家:</label>
+        <select id="country" name="country">
+            <option value="china">中国</option>
+            <option value="else">其他国家</option>
+        </select>
+        <br><br>
+        <!-- 爱好选择 -->
+        <label for="hobbies">爱好:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">阅读</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">旅行</label>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+        <label for="cooking">烹饪</label>
+        <br><br>
+        <!-- 留言或疑问输入框 -->
+        <label for="bio">疑问或留言:</label>
+        <br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+        <br><br>
+        <!-- 提交和重置按钮 -->
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+    </form>
+    <!-- JavaScript 部分：表单提交事件 -->
+    <script>
+        // 用于在 HTML 文档中嵌入或引用 JavaScript 代码
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // 阻止默认的表单提交行为
+            document.getElementById('confirmationMessage').classList.remove('hidden'); // 显示确认消息
+        });
+    </script>
+    <!-- 侧边栏部分 -->
+    <aside>
+        <h2>我们的记忆</h2>
+        <p>
+            <!-- 多张图片 -->
+            <img id="a4" src="../image/4.jpg" alt="loading...">
+            <img id="a2" src="../image/2.jpg" alt="loading...">
+            <img id="a1" src="../image/1.jpg" alt="loading...">
+            <img id="a3" src="../image/3.jpg" alt="loading...">
+            <img id="a5" src="../image/5.jpg" alt="loading...">
+        </p><br>
+        <p>
+            <img id="a6" src="../image/6.jpg" alt="loading...">
+            <img id="a7" src="../image/7.jpg" alt="loading...">
+            <img id="a8" src="../image/8.jpg" alt="loading...">
+            <img id="a9" src="../image/9.jpg" alt="loading...">
+            <img id="a10" src="../image/10.jpg" alt="loading...">
+        </p>
+    </aside>
+
+    <!-- 页脚部分 -->
+    <footer class="inner">
+        <!-- 回到主页链接 -->
+        <a href="..\home\home.html" class="good">回到主页</a>
+    </footer>
+</body>
+</html>

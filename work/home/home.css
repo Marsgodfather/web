@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    background-image: url('../image/h背景.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    margin-top: 0px;   
+    margin-left: 300px;
+    font-family:  'Comic Sans MS', cursive;    
+    font-size: 69px;
+    font-weight: bold;
+    text-align: center;
+    height: 96px;
+}
+div.inner{
+    width: 910px;
+    margin-left: 300px;
+    margin-right: auto;
+}
+#container_1{
+    margin-top: 0px;       
+    height: 450px;
+}
+
+.ck{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 58px;
+    color:rgb(249, 99, 99);
+    text-decoration: underline;
+}
+.ck:hover {
+    color: rgba(45, 228, 235, 0.694); /* 设置悬停时链接的颜色 */
+}
+.good{
+    color: rgb(17, 16, 16);
+    text-decoration: underline;
+}
+.good:hover {
+    color: rgb(213, 43, 43); 
+}
+#cont_1_1{
+    margin-top: 0px;       
+    height: 450px;
+    width: 450px;
+    background-image: url('../image/h背景11.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+#cont_1_2{
+    margin-top: 0px;  
+    margin-left: 10px;     
+    height: 450px;
+    width:450px;
+    background-image: url('../image/h背景12.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+#container_2{
+    margin-top: 10px;       
+    height: 450px;
+}
+#cont_2_1{
+    margin-top: 0px;       
+    height: 450px;
+    width: 450px;
+    background-image: url('../image/h背景21.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+#cont_2_2{
+    margin-top: 0px;  
+    margin-left: 10px;     
+    height: 450px;
+    width: 450px;
+    background-image: url('../image/h背景22.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+footer{
+    margin-left: 300px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
