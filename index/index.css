@@ -1,0 +1,74 @@
+body{
+    margin-top: 0px;/* 外边距 */
+    background-image: url('../image/w背景.jpg'); /* 背景图片的 URL */
+    background-size: 100% 100%;
+    background-position: center; /* 图片位置 */
+    background-repeat: no-repeat; /* 图片不重复 */
+}
+header{
+    margin-top: 0px;       
+    height:108px;
+    font-family:  'Comic Sans MS', cursive;
+    font-size: 48px;/* 字体大小 */
+    font-weight: bold;/* 粗体 */
+    text-align: center;/* 居中对齐 */
+    color: rgb(248, 111, 166);
+}
+nav{
+    font-size: x-large;
+}
+.ck{
+    color: rgb(217, 214, 207);
+    text-decoration: underline;
+}
+.ck:hover {
+    color: rgb(249, 99, 99); /* 设置悬停时链接的颜色 */
+}
+caption{
+    font-style: italic;/* 字体样式 */
+    font-size: xx-large;
+    padding-top: 8px;/* 内边距 */
+}
+div.inner{
+    width: 1100px;/* 宽度 */
+    margin-left: auto;
+    margin-right: auto;
+}
+#container_1{
+    margin-top: 8px;       
+    height: 308px;
+}
+#cont_1_1{
+    margin-top: 8px;       
+    height: 298px;
+    width: 400px;
+    font-size: larger;
+    color: rgb(158, 247, 205);
+    background-image: url('../image/男.JPG'); 
+    background-size: 80% 100%;
+    background-position: right; 
+    background-repeat: no-repeat; 
+    float: left;/* 浮动在左边 */
+}
+#cont_1_2{
+    margin-top: 8px;       
+    height: 298px;
+    width: 300px;
+    float: left;
+    text-align: right;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: x-large;
+}
+#cont_1_3{
+    margin-top: 8px;       
+    height: 298px;
+    width: 370px;
+    font-size: larger;
+    color: rgb(151, 37, 126);
+    background-image: url('../image/女.JPG'); 
+    background-size: 75% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+}
